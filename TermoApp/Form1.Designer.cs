@@ -28,743 +28,786 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            button5 = new Button();
-            button6 = new Button();
-            button7 = new Button();
-            button8 = new Button();
-            button9 = new Button();
-            button10 = new Button();
-            button11 = new Button();
-            button12 = new Button();
-            button13 = new Button();
-            button14 = new Button();
-            button15 = new Button();
-            button16 = new Button();
-            button17 = new Button();
-            button18 = new Button();
-            button19 = new Button();
-            button20 = new Button();
-            button21 = new Button();
-            button22 = new Button();
-            button23 = new Button();
-            button24 = new Button();
-            button25 = new Button();
-            groupBox1 = new GroupBox();
-            groupBox2 = new GroupBox();
+            btn11 = new Button();
+            btn12 = new Button();
+            btn13 = new Button();
+            btn14 = new Button();
+            btn15 = new Button();
+            btn21 = new Button();
+            btn22 = new Button();
+            btn23 = new Button();
+            btn24 = new Button();
+            btn25 = new Button();
+            btn31 = new Button();
+            btn32 = new Button();
+            btn33 = new Button();
+            btn34 = new Button();
+            btn35 = new Button();
+            btn41 = new Button();
+            btn42 = new Button();
+            btn43 = new Button();
+            btn44 = new Button();
+            btn45 = new Button();
+            btn51 = new Button();
+            btn52 = new Button();
+            btn53 = new Button();
+            btn54 = new Button();
+            btn55 = new Button();
+            gpbJogo = new GroupBox();
+            btn65 = new Button();
+            btn64 = new Button();
+            btn63 = new Button();
+            btn62 = new Button();
+            btn61 = new Button();
+            gpbTeclado = new GroupBox();
             buttonEnter = new Button();
             buttonDel = new Button();
-            buttonM = new Button();
-            buttonN = new Button();
-            buttonB = new Button();
-            buttonV = new Button();
-            buttonC = new Button();
-            buttonX = new Button();
-            buttonZ = new Button();
-            buttonL = new Button();
-            buttonK = new Button();
-            buttonJ = new Button();
-            buttonH = new Button();
-            buttonG = new Button();
-            buttonF = new Button();
-            buttonD = new Button();
-            buttonS = new Button();
-            buttonA = new Button();
-            buttonP = new Button();
-            buttonO = new Button();
-            buttonI = new Button();
-            buttonU = new Button();
-            buttonY = new Button();
-            buttonT = new Button();
+            btnM = new Button();
+            btnN = new Button();
+            btnB = new Button();
+            btnV = new Button();
+            btnC = new Button();
+            btnX = new Button();
+            btnZ = new Button();
+            btnL = new Button();
+            btnK = new Button();
+            btnJ = new Button();
+            btnH = new Button();
+            btnG = new Button();
+            btnF = new Button();
+            btnD = new Button();
+            btnS = new Button();
+            btnA = new Button();
+            btnP = new Button();
+            btnO = new Button();
+            btnI = new Button();
+            btnU = new Button();
+            btnY = new Button();
+            btnT = new Button();
             buttonR = new Button();
-            buttonE = new Button();
-            buttonW = new Button();
-            buttonQ = new Button();
-            button26 = new Button();
-            button27 = new Button();
-            button28 = new Button();
-            button29 = new Button();
-            button30 = new Button();
-            groupBox1.SuspendLayout();
-            groupBox2.SuspendLayout();
+            btnE = new Button();
+            btnW = new Button();
+            btnQ = new Button();
+            label1 = new Label();
+            gpbJogo.SuspendLayout();
+            gpbTeclado.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // btn11
             // 
-            button1.Location = new Point(29, 12);
-            button1.Name = "button1";
-            button1.Size = new Size(60, 60);
-            button1.TabIndex = 20;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btn11.BackColor = SystemColors.AppWorkspace;
+            btn11.Location = new Point(29, 12);
+            btn11.Name = "btn11";
+            btn11.Size = new Size(60, 60);
+            btn11.TabIndex = 20;
+            btn11.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // btn12
             // 
-            button2.Location = new Point(95, 12);
-            button2.Name = "button2";
-            button2.Size = new Size(60, 60);
-            button2.TabIndex = 21;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btn12.BackColor = SystemColors.AppWorkspace;
+            btn12.Location = new Point(95, 12);
+            btn12.Name = "btn12";
+            btn12.Size = new Size(60, 60);
+            btn12.TabIndex = 21;
+            btn12.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btn13
             // 
-            button3.Location = new Point(161, 12);
-            button3.Name = "button3";
-            button3.Size = new Size(60, 60);
-            button3.TabIndex = 22;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btn13.BackColor = SystemColors.AppWorkspace;
+            btn13.Location = new Point(161, 12);
+            btn13.Name = "btn13";
+            btn13.Size = new Size(60, 60);
+            btn13.TabIndex = 22;
+            btn13.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // btn14
             // 
-            button4.Location = new Point(227, 12);
-            button4.Name = "button4";
-            button4.Size = new Size(60, 60);
-            button4.TabIndex = 23;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btn14.BackColor = SystemColors.AppWorkspace;
+            btn14.Location = new Point(227, 12);
+            btn14.Name = "btn14";
+            btn14.Size = new Size(60, 60);
+            btn14.TabIndex = 23;
+            btn14.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // btn15
             // 
-            button5.Location = new Point(293, 12);
-            button5.Name = "button5";
-            button5.Size = new Size(60, 60);
-            button5.TabIndex = 24;
-            button5.Text = "button5";
-            button5.UseVisualStyleBackColor = true;
+            btn15.BackColor = SystemColors.AppWorkspace;
+            btn15.Location = new Point(293, 12);
+            btn15.Name = "btn15";
+            btn15.Size = new Size(60, 60);
+            btn15.TabIndex = 24;
+            btn15.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // btn21
             // 
-            button6.Location = new Point(29, 89);
-            button6.Name = "button6";
-            button6.Size = new Size(60, 60);
-            button6.TabIndex = 25;
-            button6.Text = "button6";
-            button6.UseVisualStyleBackColor = true;
+            btn21.BackColor = SystemColors.AppWorkspace;
+            btn21.Location = new Point(29, 89);
+            btn21.Name = "btn21";
+            btn21.Size = new Size(60, 60);
+            btn21.TabIndex = 25;
+            btn21.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // btn22
             // 
-            button7.Location = new Point(95, 89);
-            button7.Name = "button7";
-            button7.Size = new Size(60, 60);
-            button7.TabIndex = 26;
-            button7.Text = "button7";
-            button7.UseVisualStyleBackColor = true;
+            btn22.BackColor = SystemColors.AppWorkspace;
+            btn22.Location = new Point(95, 89);
+            btn22.Name = "btn22";
+            btn22.Size = new Size(60, 60);
+            btn22.TabIndex = 26;
+            btn22.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // btn23
             // 
-            button8.Location = new Point(161, 89);
-            button8.Name = "button8";
-            button8.Size = new Size(60, 60);
-            button8.TabIndex = 27;
-            button8.Text = "button8";
-            button8.UseVisualStyleBackColor = true;
+            btn23.BackColor = SystemColors.AppWorkspace;
+            btn23.Location = new Point(161, 89);
+            btn23.Name = "btn23";
+            btn23.Size = new Size(60, 60);
+            btn23.TabIndex = 27;
+            btn23.UseVisualStyleBackColor = false;
             // 
-            // button9
+            // btn24
             // 
-            button9.Location = new Point(227, 89);
-            button9.Name = "button9";
-            button9.Size = new Size(60, 60);
-            button9.TabIndex = 28;
-            button9.Text = "button9";
-            button9.UseVisualStyleBackColor = true;
+            btn24.BackColor = SystemColors.AppWorkspace;
+            btn24.Location = new Point(227, 89);
+            btn24.Name = "btn24";
+            btn24.Size = new Size(60, 60);
+            btn24.TabIndex = 28;
+            btn24.UseVisualStyleBackColor = false;
             // 
-            // button10
+            // btn25
             // 
-            button10.Location = new Point(293, 89);
-            button10.Name = "button10";
-            button10.Size = new Size(60, 60);
-            button10.TabIndex = 29;
-            button10.Text = "button10";
-            button10.UseVisualStyleBackColor = true;
+            btn25.BackColor = SystemColors.AppWorkspace;
+            btn25.Location = new Point(293, 89);
+            btn25.Name = "btn25";
+            btn25.Size = new Size(60, 60);
+            btn25.TabIndex = 29;
+            btn25.UseVisualStyleBackColor = false;
             // 
-            // button11
+            // btn31
             // 
-            button11.Location = new Point(29, 166);
-            button11.Name = "button11";
-            button11.Size = new Size(60, 60);
-            button11.TabIndex = 30;
-            button11.Text = "button11";
-            button11.UseVisualStyleBackColor = true;
+            btn31.BackColor = SystemColors.AppWorkspace;
+            btn31.Location = new Point(29, 166);
+            btn31.Name = "btn31";
+            btn31.Size = new Size(60, 60);
+            btn31.TabIndex = 30;
+            btn31.UseVisualStyleBackColor = false;
             // 
-            // button12
+            // btn32
             // 
-            button12.Location = new Point(95, 166);
-            button12.Name = "button12";
-            button12.Size = new Size(60, 60);
-            button12.TabIndex = 31;
-            button12.Text = "button12";
-            button12.UseVisualStyleBackColor = true;
+            btn32.BackColor = SystemColors.AppWorkspace;
+            btn32.Location = new Point(95, 166);
+            btn32.Name = "btn32";
+            btn32.Size = new Size(60, 60);
+            btn32.TabIndex = 31;
+            btn32.UseVisualStyleBackColor = false;
             // 
-            // button13
+            // btn33
             // 
-            button13.Location = new Point(161, 166);
-            button13.Name = "button13";
-            button13.Size = new Size(60, 60);
-            button13.TabIndex = 32;
-            button13.Text = "button13";
-            button13.UseVisualStyleBackColor = true;
+            btn33.BackColor = SystemColors.AppWorkspace;
+            btn33.Location = new Point(161, 166);
+            btn33.Name = "btn33";
+            btn33.Size = new Size(60, 60);
+            btn33.TabIndex = 32;
+            btn33.UseVisualStyleBackColor = false;
             // 
-            // button14
+            // btn34
             // 
-            button14.Location = new Point(227, 166);
-            button14.Name = "button14";
-            button14.Size = new Size(60, 60);
-            button14.TabIndex = 33;
-            button14.Text = "button14";
-            button14.UseVisualStyleBackColor = true;
+            btn34.BackColor = SystemColors.AppWorkspace;
+            btn34.Location = new Point(227, 166);
+            btn34.Name = "btn34";
+            btn34.Size = new Size(60, 60);
+            btn34.TabIndex = 33;
+            btn34.UseVisualStyleBackColor = false;
             // 
-            // button15
+            // btn35
             // 
-            button15.Location = new Point(293, 166);
-            button15.Name = "button15";
-            button15.Size = new Size(60, 60);
-            button15.TabIndex = 34;
-            button15.Text = "button15";
-            button15.UseVisualStyleBackColor = true;
+            btn35.BackColor = SystemColors.AppWorkspace;
+            btn35.Location = new Point(293, 166);
+            btn35.Name = "btn35";
+            btn35.Size = new Size(60, 60);
+            btn35.TabIndex = 34;
+            btn35.UseVisualStyleBackColor = false;
             // 
-            // button16
+            // btn41
             // 
-            button16.Location = new Point(29, 243);
-            button16.Name = "button16";
-            button16.Size = new Size(60, 60);
-            button16.TabIndex = 35;
-            button16.Text = "button16";
-            button16.UseVisualStyleBackColor = true;
+            btn41.BackColor = SystemColors.AppWorkspace;
+            btn41.Location = new Point(29, 243);
+            btn41.Name = "btn41";
+            btn41.Size = new Size(60, 60);
+            btn41.TabIndex = 35;
+            btn41.UseVisualStyleBackColor = false;
             // 
-            // button17
+            // btn42
             // 
-            button17.Location = new Point(95, 243);
-            button17.Name = "button17";
-            button17.Size = new Size(60, 60);
-            button17.TabIndex = 36;
-            button17.Text = "button17";
-            button17.UseVisualStyleBackColor = true;
+            btn42.BackColor = SystemColors.AppWorkspace;
+            btn42.Location = new Point(95, 243);
+            btn42.Name = "btn42";
+            btn42.Size = new Size(60, 60);
+            btn42.TabIndex = 36;
+            btn42.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // btn43
             // 
-            button18.Location = new Point(161, 243);
-            button18.Name = "button18";
-            button18.Size = new Size(60, 60);
-            button18.TabIndex = 37;
-            button18.Text = "button18";
-            button18.UseVisualStyleBackColor = true;
+            btn43.BackColor = SystemColors.AppWorkspace;
+            btn43.Location = new Point(161, 243);
+            btn43.Name = "btn43";
+            btn43.Size = new Size(60, 60);
+            btn43.TabIndex = 37;
+            btn43.UseVisualStyleBackColor = false;
             // 
-            // button19
+            // btn44
             // 
-            button19.Location = new Point(227, 243);
-            button19.Name = "button19";
-            button19.Size = new Size(60, 60);
-            button19.TabIndex = 38;
-            button19.Text = "button19";
-            button19.UseVisualStyleBackColor = true;
+            btn44.BackColor = SystemColors.AppWorkspace;
+            btn44.Location = new Point(227, 243);
+            btn44.Name = "btn44";
+            btn44.Size = new Size(60, 60);
+            btn44.TabIndex = 38;
+            btn44.UseVisualStyleBackColor = false;
             // 
-            // button20
+            // btn45
             // 
-            button20.Location = new Point(293, 243);
-            button20.Name = "button20";
-            button20.Size = new Size(60, 60);
-            button20.TabIndex = 39;
-            button20.Text = "button20";
-            button20.UseVisualStyleBackColor = true;
+            btn45.BackColor = SystemColors.AppWorkspace;
+            btn45.Location = new Point(293, 243);
+            btn45.Name = "btn45";
+            btn45.Size = new Size(60, 60);
+            btn45.TabIndex = 39;
+            btn45.UseVisualStyleBackColor = false;
             // 
-            // button21
+            // btn51
             // 
-            button21.Location = new Point(29, 319);
-            button21.Name = "button21";
-            button21.Size = new Size(60, 60);
-            button21.TabIndex = 40;
-            button21.Text = "button21";
-            button21.UseVisualStyleBackColor = true;
+            btn51.BackColor = SystemColors.AppWorkspace;
+            btn51.Location = new Point(29, 319);
+            btn51.Name = "btn51";
+            btn51.Size = new Size(60, 60);
+            btn51.TabIndex = 40;
+            btn51.UseVisualStyleBackColor = false;
             // 
-            // button22
+            // btn52
             // 
-            button22.Location = new Point(95, 319);
-            button22.Name = "button22";
-            button22.Size = new Size(60, 60);
-            button22.TabIndex = 41;
-            button22.Text = "button22";
-            button22.UseVisualStyleBackColor = true;
+            btn52.BackColor = SystemColors.AppWorkspace;
+            btn52.Location = new Point(95, 319);
+            btn52.Name = "btn52";
+            btn52.Size = new Size(60, 60);
+            btn52.TabIndex = 41;
+            btn52.UseVisualStyleBackColor = false;
             // 
-            // button23
+            // btn53
             // 
-            button23.Location = new Point(161, 319);
-            button23.Name = "button23";
-            button23.Size = new Size(60, 60);
-            button23.TabIndex = 42;
-            button23.Text = "button23";
-            button23.UseVisualStyleBackColor = true;
+            btn53.BackColor = SystemColors.AppWorkspace;
+            btn53.Location = new Point(161, 319);
+            btn53.Name = "btn53";
+            btn53.Size = new Size(60, 60);
+            btn53.TabIndex = 42;
+            btn53.UseVisualStyleBackColor = false;
             // 
-            // button24
+            // btn54
             // 
-            button24.Location = new Point(227, 319);
-            button24.Name = "button24";
-            button24.Size = new Size(60, 60);
-            button24.TabIndex = 43;
-            button24.Text = "button24";
-            button24.UseVisualStyleBackColor = true;
+            btn54.BackColor = SystemColors.AppWorkspace;
+            btn54.Location = new Point(227, 319);
+            btn54.Name = "btn54";
+            btn54.Size = new Size(60, 60);
+            btn54.TabIndex = 43;
+            btn54.UseVisualStyleBackColor = false;
             // 
-            // button25
+            // btn55
             // 
-            button25.Location = new Point(293, 319);
-            button25.Name = "button25";
-            button25.Size = new Size(60, 60);
-            button25.TabIndex = 44;
-            button25.Text = "button25";
-            button25.UseVisualStyleBackColor = true;
+            btn55.BackColor = SystemColors.AppWorkspace;
+            btn55.Location = new Point(293, 319);
+            btn55.Name = "btn55";
+            btn55.Size = new Size(60, 60);
+            btn55.TabIndex = 44;
+            btn55.UseVisualStyleBackColor = false;
             // 
-            // groupBox1
+            // gpbJogo
             // 
-            groupBox1.Controls.Add(button30);
-            groupBox1.Controls.Add(button29);
-            groupBox1.Controls.Add(button28);
-            groupBox1.Controls.Add(button27);
-            groupBox1.Controls.Add(button26);
-            groupBox1.Controls.Add(button19);
-            groupBox1.Controls.Add(button25);
-            groupBox1.Controls.Add(button1);
-            groupBox1.Controls.Add(button24);
-            groupBox1.Controls.Add(button2);
-            groupBox1.Controls.Add(button23);
-            groupBox1.Controls.Add(button3);
-            groupBox1.Controls.Add(button22);
-            groupBox1.Controls.Add(button4);
-            groupBox1.Controls.Add(button21);
-            groupBox1.Controls.Add(button5);
-            groupBox1.Controls.Add(button20);
-            groupBox1.Controls.Add(button6);
-            groupBox1.Controls.Add(button7);
-            groupBox1.Controls.Add(button18);
-            groupBox1.Controls.Add(button8);
-            groupBox1.Controls.Add(button17);
-            groupBox1.Controls.Add(button9);
-            groupBox1.Controls.Add(button16);
-            groupBox1.Controls.Add(button10);
-            groupBox1.Controls.Add(button15);
-            groupBox1.Controls.Add(button11);
-            groupBox1.Controls.Add(button14);
-            groupBox1.Controls.Add(button12);
-            groupBox1.Controls.Add(button13);
-            groupBox1.Location = new Point(139, 12);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(383, 460);
-            groupBox1.TabIndex = 45;
-            groupBox1.TabStop = false;
+            gpbJogo.Controls.Add(btn65);
+            gpbJogo.Controls.Add(btn64);
+            gpbJogo.Controls.Add(btn63);
+            gpbJogo.Controls.Add(btn62);
+            gpbJogo.Controls.Add(btn61);
+            gpbJogo.Controls.Add(btn44);
+            gpbJogo.Controls.Add(btn55);
+            gpbJogo.Controls.Add(btn11);
+            gpbJogo.Controls.Add(btn54);
+            gpbJogo.Controls.Add(btn12);
+            gpbJogo.Controls.Add(btn53);
+            gpbJogo.Controls.Add(btn13);
+            gpbJogo.Controls.Add(btn52);
+            gpbJogo.Controls.Add(btn14);
+            gpbJogo.Controls.Add(btn51);
+            gpbJogo.Controls.Add(btn15);
+            gpbJogo.Controls.Add(btn45);
+            gpbJogo.Controls.Add(btn21);
+            gpbJogo.Controls.Add(btn22);
+            gpbJogo.Controls.Add(btn43);
+            gpbJogo.Controls.Add(btn23);
+            gpbJogo.Controls.Add(btn42);
+            gpbJogo.Controls.Add(btn24);
+            gpbJogo.Controls.Add(btn41);
+            gpbJogo.Controls.Add(btn25);
+            gpbJogo.Controls.Add(btn35);
+            gpbJogo.Controls.Add(btn31);
+            gpbJogo.Controls.Add(btn34);
+            gpbJogo.Controls.Add(btn32);
+            gpbJogo.Controls.Add(btn33);
+            gpbJogo.Location = new Point(139, 76);
+            gpbJogo.Name = "gpbJogo";
+            gpbJogo.Size = new Size(383, 460);
+            gpbJogo.TabIndex = 45;
+            gpbJogo.TabStop = false;
             // 
-            // groupBox2
+            // btn65
             // 
-            groupBox2.Controls.Add(buttonEnter);
-            groupBox2.Controls.Add(buttonDel);
-            groupBox2.Controls.Add(buttonM);
-            groupBox2.Controls.Add(buttonN);
-            groupBox2.Controls.Add(buttonB);
-            groupBox2.Controls.Add(buttonV);
-            groupBox2.Controls.Add(buttonC);
-            groupBox2.Controls.Add(buttonX);
-            groupBox2.Controls.Add(buttonZ);
-            groupBox2.Controls.Add(buttonL);
-            groupBox2.Controls.Add(buttonK);
-            groupBox2.Controls.Add(buttonJ);
-            groupBox2.Controls.Add(buttonH);
-            groupBox2.Controls.Add(buttonG);
-            groupBox2.Controls.Add(buttonF);
-            groupBox2.Controls.Add(buttonD);
-            groupBox2.Controls.Add(buttonS);
-            groupBox2.Controls.Add(buttonA);
-            groupBox2.Controls.Add(buttonP);
-            groupBox2.Controls.Add(buttonO);
-            groupBox2.Controls.Add(buttonI);
-            groupBox2.Controls.Add(buttonU);
-            groupBox2.Controls.Add(buttonY);
-            groupBox2.Controls.Add(buttonT);
-            groupBox2.Controls.Add(buttonR);
-            groupBox2.Controls.Add(buttonE);
-            groupBox2.Controls.Add(buttonW);
-            groupBox2.Controls.Add(buttonQ);
-            groupBox2.Location = new Point(15, 478);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(636, 188);
-            groupBox2.TabIndex = 46;
-            groupBox2.TabStop = false;
-            groupBox2.Enter += groupBox2_Enter;
+            btn65.BackColor = SystemColors.AppWorkspace;
+            btn65.Location = new Point(293, 385);
+            btn65.Name = "btn65";
+            btn65.Size = new Size(60, 60);
+            btn65.TabIndex = 49;
+            btn65.UseVisualStyleBackColor = false;
+            // 
+            // btn64
+            // 
+            btn64.BackColor = SystemColors.AppWorkspace;
+            btn64.Location = new Point(227, 385);
+            btn64.Name = "btn64";
+            btn64.Size = new Size(60, 60);
+            btn64.TabIndex = 48;
+            btn64.UseVisualStyleBackColor = false;
+            // 
+            // btn63
+            // 
+            btn63.BackColor = SystemColors.AppWorkspace;
+            btn63.Location = new Point(161, 385);
+            btn63.Name = "btn63";
+            btn63.Size = new Size(60, 60);
+            btn63.TabIndex = 47;
+            btn63.UseVisualStyleBackColor = false;
+            // 
+            // btn62
+            // 
+            btn62.BackColor = SystemColors.AppWorkspace;
+            btn62.Location = new Point(95, 385);
+            btn62.Name = "btn62";
+            btn62.Size = new Size(60, 60);
+            btn62.TabIndex = 46;
+            btn62.UseVisualStyleBackColor = false;
+            // 
+            // btn61
+            // 
+            btn61.BackColor = SystemColors.AppWorkspace;
+            btn61.Location = new Point(29, 385);
+            btn61.Name = "btn61";
+            btn61.Size = new Size(60, 60);
+            btn61.TabIndex = 45;
+            btn61.UseVisualStyleBackColor = false;
+            // 
+            // gpbTeclado
+            // 
+            gpbTeclado.Controls.Add(buttonEnter);
+            gpbTeclado.Controls.Add(buttonDel);
+            gpbTeclado.Controls.Add(btnM);
+            gpbTeclado.Controls.Add(btnN);
+            gpbTeclado.Controls.Add(btnB);
+            gpbTeclado.Controls.Add(btnV);
+            gpbTeclado.Controls.Add(btnC);
+            gpbTeclado.Controls.Add(btnX);
+            gpbTeclado.Controls.Add(btnZ);
+            gpbTeclado.Controls.Add(btnL);
+            gpbTeclado.Controls.Add(btnK);
+            gpbTeclado.Controls.Add(btnJ);
+            gpbTeclado.Controls.Add(btnH);
+            gpbTeclado.Controls.Add(btnG);
+            gpbTeclado.Controls.Add(btnF);
+            gpbTeclado.Controls.Add(btnD);
+            gpbTeclado.Controls.Add(btnS);
+            gpbTeclado.Controls.Add(btnA);
+            gpbTeclado.Controls.Add(btnP);
+            gpbTeclado.Controls.Add(btnO);
+            gpbTeclado.Controls.Add(btnI);
+            gpbTeclado.Controls.Add(btnU);
+            gpbTeclado.Controls.Add(btnY);
+            gpbTeclado.Controls.Add(btnT);
+            gpbTeclado.Controls.Add(buttonR);
+            gpbTeclado.Controls.Add(btnE);
+            gpbTeclado.Controls.Add(btnW);
+            gpbTeclado.Controls.Add(btnQ);
+            gpbTeclado.ForeColor = SystemColors.ButtonFace;
+            gpbTeclado.Location = new Point(12, 560);
+            gpbTeclado.Name = "gpbTeclado";
+            gpbTeclado.Size = new Size(636, 188);
+            gpbTeclado.TabIndex = 46;
+            gpbTeclado.TabStop = false;
             // 
             // buttonEnter
             // 
+            buttonEnter.BackColor = SystemColors.AppWorkspace;
             buttonEnter.Location = new Point(494, 127);
             buttonEnter.Name = "buttonEnter";
             buttonEnter.Size = new Size(108, 40);
             buttonEnter.TabIndex = 27;
             buttonEnter.Text = "ENTER";
-            buttonEnter.UseVisualStyleBackColor = true;
+            buttonEnter.UseVisualStyleBackColor = false;
             // 
             // buttonDel
             // 
+            buttonDel.BackColor = SystemColors.AppWorkspace;
             buttonDel.Location = new Point(494, 81);
             buttonDel.Name = "buttonDel";
             buttonDel.Size = new Size(108, 40);
             buttonDel.TabIndex = 26;
             buttonDel.Text = "DELETE";
-            buttonDel.UseVisualStyleBackColor = true;
-            buttonDel.Click += button52_Click;
+            buttonDel.UseVisualStyleBackColor = false;
             // 
-            // buttonM
+            // btnM
             // 
-            buttonM.Location = new Point(383, 127);
-            buttonM.Name = "buttonM";
-            buttonM.Size = new Size(40, 40);
-            buttonM.TabIndex = 25;
-            buttonM.Text = "M";
-            buttonM.UseVisualStyleBackColor = true;
+            btnM.BackColor = SystemColors.AppWorkspace;
+            btnM.Location = new Point(383, 127);
+            btnM.Name = "btnM";
+            btnM.Size = new Size(40, 40);
+            btnM.TabIndex = 25;
+            btnM.Text = "M";
+            btnM.UseVisualStyleBackColor = false;
             // 
-            // buttonN
+            // btnN
             // 
-            buttonN.Location = new Point(337, 127);
-            buttonN.Name = "buttonN";
-            buttonN.Size = new Size(40, 40);
-            buttonN.TabIndex = 24;
-            buttonN.Text = "N";
-            buttonN.UseVisualStyleBackColor = true;
+            btnN.BackColor = SystemColors.AppWorkspace;
+            btnN.Location = new Point(337, 127);
+            btnN.Name = "btnN";
+            btnN.Size = new Size(40, 40);
+            btnN.TabIndex = 24;
+            btnN.Text = "N";
+            btnN.UseVisualStyleBackColor = false;
             // 
-            // buttonB
+            // btnB
             // 
-            buttonB.Location = new Point(291, 127);
-            buttonB.Name = "buttonB";
-            buttonB.Size = new Size(40, 40);
-            buttonB.TabIndex = 23;
-            buttonB.Text = "B";
-            buttonB.UseVisualStyleBackColor = true;
-            buttonB.Click += button49_Click;
+            btnB.BackColor = SystemColors.AppWorkspace;
+            btnB.Location = new Point(291, 127);
+            btnB.Name = "btnB";
+            btnB.Size = new Size(40, 40);
+            btnB.TabIndex = 23;
+            btnB.Text = "B";
+            btnB.UseVisualStyleBackColor = false;
             // 
-            // buttonV
+            // btnV
             // 
-            buttonV.Location = new Point(245, 127);
-            buttonV.Name = "buttonV";
-            buttonV.Size = new Size(40, 40);
-            buttonV.TabIndex = 22;
-            buttonV.Text = "V";
-            buttonV.UseVisualStyleBackColor = true;
+            btnV.BackColor = SystemColors.AppWorkspace;
+            btnV.Location = new Point(245, 127);
+            btnV.Name = "btnV";
+            btnV.Size = new Size(40, 40);
+            btnV.TabIndex = 22;
+            btnV.Text = "V";
+            btnV.UseVisualStyleBackColor = false;
             // 
-            // buttonC
+            // btnC
             // 
-            buttonC.Location = new Point(199, 127);
-            buttonC.Name = "buttonC";
-            buttonC.Size = new Size(40, 40);
-            buttonC.TabIndex = 21;
-            buttonC.Text = "C";
-            buttonC.UseVisualStyleBackColor = true;
+            btnC.BackColor = SystemColors.AppWorkspace;
+            btnC.Location = new Point(199, 127);
+            btnC.Name = "btnC";
+            btnC.Size = new Size(40, 40);
+            btnC.TabIndex = 21;
+            btnC.Text = "C";
+            btnC.UseVisualStyleBackColor = false;
             // 
-            // buttonX
+            // btnX
             // 
-            buttonX.Location = new Point(153, 127);
-            buttonX.Name = "buttonX";
-            buttonX.Size = new Size(40, 40);
-            buttonX.TabIndex = 20;
-            buttonX.Text = "X";
-            buttonX.UseVisualStyleBackColor = true;
+            btnX.BackColor = SystemColors.AppWorkspace;
+            btnX.Location = new Point(153, 127);
+            btnX.Name = "btnX";
+            btnX.Size = new Size(40, 40);
+            btnX.TabIndex = 20;
+            btnX.Text = "X";
+            btnX.UseVisualStyleBackColor = false;
             // 
-            // buttonZ
+            // btnZ
             // 
-            buttonZ.Location = new Point(107, 127);
-            buttonZ.Name = "buttonZ";
-            buttonZ.Size = new Size(40, 40);
-            buttonZ.TabIndex = 19;
-            buttonZ.Text = "Z";
-            buttonZ.UseVisualStyleBackColor = true;
+            btnZ.BackColor = SystemColors.AppWorkspace;
+            btnZ.Location = new Point(107, 127);
+            btnZ.Name = "btnZ";
+            btnZ.Size = new Size(40, 40);
+            btnZ.TabIndex = 19;
+            btnZ.Text = "Z";
+            btnZ.UseVisualStyleBackColor = false;
             // 
-            // buttonL
+            // btnL
             // 
-            buttonL.Location = new Point(427, 81);
-            buttonL.Name = "buttonL";
-            buttonL.Size = new Size(40, 40);
-            buttonL.TabIndex = 18;
-            buttonL.Text = "L";
-            buttonL.UseVisualStyleBackColor = true;
+            btnL.BackColor = SystemColors.AppWorkspace;
+            btnL.Location = new Point(427, 81);
+            btnL.Name = "btnL";
+            btnL.Size = new Size(40, 40);
+            btnL.TabIndex = 18;
+            btnL.Text = "L";
+            btnL.UseVisualStyleBackColor = false;
             // 
-            // buttonK
+            // btnK
             // 
-            buttonK.Location = new Point(383, 81);
-            buttonK.Name = "buttonK";
-            buttonK.Size = new Size(40, 40);
-            buttonK.TabIndex = 17;
-            buttonK.Text = "K";
-            buttonK.UseVisualStyleBackColor = true;
+            btnK.BackColor = SystemColors.AppWorkspace;
+            btnK.Location = new Point(383, 81);
+            btnK.Name = "btnK";
+            btnK.Size = new Size(40, 40);
+            btnK.TabIndex = 17;
+            btnK.Text = "K";
+            btnK.UseVisualStyleBackColor = false;
             // 
-            // buttonJ
+            // btnJ
             // 
-            buttonJ.Location = new Point(337, 81);
-            buttonJ.Name = "buttonJ";
-            buttonJ.Size = new Size(40, 40);
-            buttonJ.TabIndex = 16;
-            buttonJ.Text = "J";
-            buttonJ.UseVisualStyleBackColor = true;
+            btnJ.BackColor = SystemColors.AppWorkspace;
+            btnJ.Location = new Point(337, 81);
+            btnJ.Name = "btnJ";
+            btnJ.Size = new Size(40, 40);
+            btnJ.TabIndex = 16;
+            btnJ.Text = "J";
+            btnJ.UseVisualStyleBackColor = false;
             // 
-            // buttonH
+            // btnH
             // 
-            buttonH.Location = new Point(291, 81);
-            buttonH.Name = "buttonH";
-            buttonH.Size = new Size(40, 40);
-            buttonH.TabIndex = 15;
-            buttonH.Text = "H";
-            buttonH.UseVisualStyleBackColor = true;
+            btnH.BackColor = SystemColors.AppWorkspace;
+            btnH.Location = new Point(291, 81);
+            btnH.Name = "btnH";
+            btnH.Size = new Size(40, 40);
+            btnH.TabIndex = 15;
+            btnH.Text = "H";
+            btnH.UseVisualStyleBackColor = false;
             // 
-            // buttonG
+            // btnG
             // 
-            buttonG.Location = new Point(245, 81);
-            buttonG.Name = "buttonG";
-            buttonG.Size = new Size(40, 40);
-            buttonG.TabIndex = 14;
-            buttonG.Text = "G";
-            buttonG.UseVisualStyleBackColor = true;
+            btnG.BackColor = SystemColors.AppWorkspace;
+            btnG.Location = new Point(245, 81);
+            btnG.Name = "btnG";
+            btnG.Size = new Size(40, 40);
+            btnG.TabIndex = 14;
+            btnG.Text = "G";
+            btnG.UseVisualStyleBackColor = false;
             // 
-            // buttonF
+            // btnF
             // 
-            buttonF.Location = new Point(199, 81);
-            buttonF.Name = "buttonF";
-            buttonF.Size = new Size(40, 40);
-            buttonF.TabIndex = 13;
-            buttonF.Text = "F";
-            buttonF.UseVisualStyleBackColor = true;
+            btnF.BackColor = SystemColors.AppWorkspace;
+            btnF.Location = new Point(199, 81);
+            btnF.Name = "btnF";
+            btnF.Size = new Size(40, 40);
+            btnF.TabIndex = 13;
+            btnF.Text = "F";
+            btnF.UseVisualStyleBackColor = false;
             // 
-            // buttonD
+            // btnD
             // 
-            buttonD.Location = new Point(153, 81);
-            buttonD.Name = "buttonD";
-            buttonD.Size = new Size(40, 40);
-            buttonD.TabIndex = 12;
-            buttonD.Text = "D";
-            buttonD.UseVisualStyleBackColor = true;
+            btnD.BackColor = SystemColors.AppWorkspace;
+            btnD.Location = new Point(153, 81);
+            btnD.Name = "btnD";
+            btnD.Size = new Size(40, 40);
+            btnD.TabIndex = 12;
+            btnD.Text = "D";
+            btnD.UseVisualStyleBackColor = false;
             // 
-            // buttonS
+            // btnS
             // 
-            buttonS.Location = new Point(107, 81);
-            buttonS.Name = "buttonS";
-            buttonS.Size = new Size(40, 40);
-            buttonS.TabIndex = 11;
-            buttonS.Text = "S";
-            buttonS.UseVisualStyleBackColor = true;
+            btnS.BackColor = SystemColors.AppWorkspace;
+            btnS.Location = new Point(107, 81);
+            btnS.Name = "btnS";
+            btnS.Size = new Size(40, 40);
+            btnS.TabIndex = 11;
+            btnS.Text = "S";
+            btnS.UseVisualStyleBackColor = false;
             // 
-            // buttonA
+            // btnA
             // 
-            buttonA.Location = new Point(61, 81);
-            buttonA.Name = "buttonA";
-            buttonA.Size = new Size(40, 40);
-            buttonA.TabIndex = 10;
-            buttonA.Text = "A";
-            buttonA.UseVisualStyleBackColor = true;
+            btnA.BackColor = SystemColors.AppWorkspace;
+            btnA.Location = new Point(61, 81);
+            btnA.Name = "btnA";
+            btnA.Size = new Size(40, 40);
+            btnA.TabIndex = 10;
+            btnA.Text = "A";
+            btnA.UseVisualStyleBackColor = false;
             // 
-            // buttonP
+            // btnP
             // 
-            buttonP.Location = new Point(449, 35);
-            buttonP.Name = "buttonP";
-            buttonP.Size = new Size(40, 40);
-            buttonP.TabIndex = 9;
-            buttonP.Text = "P";
-            buttonP.UseVisualStyleBackColor = true;
+            btnP.BackColor = SystemColors.AppWorkspace;
+            btnP.Location = new Point(449, 35);
+            btnP.Name = "btnP";
+            btnP.Size = new Size(40, 40);
+            btnP.TabIndex = 9;
+            btnP.Text = "P";
+            btnP.UseVisualStyleBackColor = false;
             // 
-            // buttonO
+            // btnO
             // 
-            buttonO.Location = new Point(403, 35);
-            buttonO.Name = "buttonO";
-            buttonO.Size = new Size(40, 40);
-            buttonO.TabIndex = 8;
-            buttonO.Text = "O";
-            buttonO.UseVisualStyleBackColor = true;
+            btnO.BackColor = SystemColors.AppWorkspace;
+            btnO.Location = new Point(403, 35);
+            btnO.Name = "btnO";
+            btnO.Size = new Size(40, 40);
+            btnO.TabIndex = 8;
+            btnO.Text = "O";
+            btnO.UseVisualStyleBackColor = false;
             // 
-            // buttonI
+            // btnI
             // 
-            buttonI.Location = new Point(357, 35);
-            buttonI.Name = "buttonI";
-            buttonI.Size = new Size(40, 40);
-            buttonI.TabIndex = 7;
-            buttonI.Text = "I";
-            buttonI.UseVisualStyleBackColor = true;
+            btnI.BackColor = SystemColors.AppWorkspace;
+            btnI.Location = new Point(357, 35);
+            btnI.Name = "btnI";
+            btnI.Size = new Size(40, 40);
+            btnI.TabIndex = 7;
+            btnI.Text = "I";
+            btnI.UseVisualStyleBackColor = false;
             // 
-            // buttonU
+            // btnU
             // 
-            buttonU.Location = new Point(311, 35);
-            buttonU.Name = "buttonU";
-            buttonU.Size = new Size(40, 40);
-            buttonU.TabIndex = 6;
-            buttonU.Text = "U";
-            buttonU.UseVisualStyleBackColor = true;
+            btnU.BackColor = SystemColors.AppWorkspace;
+            btnU.Location = new Point(311, 35);
+            btnU.Name = "btnU";
+            btnU.Size = new Size(40, 40);
+            btnU.TabIndex = 6;
+            btnU.Text = "U";
+            btnU.UseVisualStyleBackColor = false;
             // 
-            // buttonY
+            // btnY
             // 
-            buttonY.Location = new Point(265, 35);
-            buttonY.Name = "buttonY";
-            buttonY.Size = new Size(40, 40);
-            buttonY.TabIndex = 5;
-            buttonY.Text = "Y";
-            buttonY.UseVisualStyleBackColor = true;
+            btnY.BackColor = SystemColors.AppWorkspace;
+            btnY.Location = new Point(265, 35);
+            btnY.Name = "btnY";
+            btnY.Size = new Size(40, 40);
+            btnY.TabIndex = 5;
+            btnY.Text = "Y";
+            btnY.UseVisualStyleBackColor = false;
             // 
-            // buttonT
+            // btnT
             // 
-            buttonT.Location = new Point(219, 35);
-            buttonT.Name = "buttonT";
-            buttonT.Size = new Size(40, 40);
-            buttonT.TabIndex = 4;
-            buttonT.Text = "T";
-            buttonT.UseVisualStyleBackColor = true;
+            btnT.BackColor = SystemColors.AppWorkspace;
+            btnT.Location = new Point(219, 35);
+            btnT.Name = "btnT";
+            btnT.Size = new Size(40, 40);
+            btnT.TabIndex = 4;
+            btnT.Text = "T";
+            btnT.UseVisualStyleBackColor = false;
             // 
             // buttonR
             // 
+            buttonR.BackColor = SystemColors.AppWorkspace;
             buttonR.Location = new Point(173, 35);
             buttonR.Name = "buttonR";
             buttonR.Size = new Size(40, 40);
             buttonR.TabIndex = 3;
             buttonR.Text = "R";
-            buttonR.UseVisualStyleBackColor = true;
+            buttonR.UseVisualStyleBackColor = false;
             // 
-            // buttonE
+            // btnE
             // 
-            buttonE.Location = new Point(127, 35);
-            buttonE.Name = "buttonE";
-            buttonE.Size = new Size(40, 40);
-            buttonE.TabIndex = 2;
-            buttonE.Text = "E";
-            buttonE.UseVisualStyleBackColor = true;
+            btnE.BackColor = SystemColors.AppWorkspace;
+            btnE.Location = new Point(127, 35);
+            btnE.Name = "btnE";
+            btnE.Size = new Size(40, 40);
+            btnE.TabIndex = 2;
+            btnE.Text = "E";
+            btnE.UseVisualStyleBackColor = false;
             // 
-            // buttonW
+            // btnW
             // 
-            buttonW.Location = new Point(81, 35);
-            buttonW.Name = "buttonW";
-            buttonW.Size = new Size(40, 40);
-            buttonW.TabIndex = 1;
-            buttonW.Text = "W";
-            buttonW.UseVisualStyleBackColor = true;
+            btnW.BackColor = SystemColors.AppWorkspace;
+            btnW.Location = new Point(81, 35);
+            btnW.Name = "btnW";
+            btnW.Size = new Size(40, 40);
+            btnW.TabIndex = 1;
+            btnW.Text = "W";
+            btnW.UseVisualStyleBackColor = false;
             // 
-            // buttonQ
+            // btnQ
             // 
-            buttonQ.Location = new Point(35, 35);
-            buttonQ.Name = "buttonQ";
-            buttonQ.Size = new Size(40, 40);
-            buttonQ.TabIndex = 0;
-            buttonQ.Text = "Q";
-            buttonQ.UseVisualStyleBackColor = true;
+            btnQ.BackColor = SystemColors.AppWorkspace;
+            btnQ.Location = new Point(35, 35);
+            btnQ.Name = "btnQ";
+            btnQ.Size = new Size(40, 40);
+            btnQ.TabIndex = 0;
+            btnQ.Text = "Q";
+            btnQ.UseVisualStyleBackColor = false;
             // 
-            // button26
+            // label1
             // 
-            button26.Location = new Point(29, 385);
-            button26.Name = "button26";
-            button26.Size = new Size(60, 60);
-            button26.TabIndex = 45;
-            button26.Text = "button26";
-            button26.UseVisualStyleBackColor = true;
-            // 
-            // button27
-            // 
-            button27.Location = new Point(95, 385);
-            button27.Name = "button27";
-            button27.Size = new Size(60, 60);
-            button27.TabIndex = 46;
-            button27.Text = "button27";
-            button27.UseVisualStyleBackColor = true;
-            // 
-            // button28
-            // 
-            button28.Location = new Point(161, 385);
-            button28.Name = "button28";
-            button28.Size = new Size(60, 60);
-            button28.TabIndex = 47;
-            button28.Text = "button28";
-            button28.UseVisualStyleBackColor = true;
-            // 
-            // button29
-            // 
-            button29.Location = new Point(227, 385);
-            button29.Name = "button29";
-            button29.Size = new Size(60, 60);
-            button29.TabIndex = 48;
-            button29.Text = "button29";
-            button29.UseVisualStyleBackColor = true;
-            // 
-            // button30
-            // 
-            button30.Location = new Point(293, 385);
-            button30.Name = "button30";
-            button30.Size = new Size(60, 60);
-            button30.TabIndex = 49;
-            button30.Text = "button30";
-            button30.UseVisualStyleBackColor = true;
+            label1.AutoSize = true;
+            label1.Font = new Font("Microsoft YaHei", 27.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.GradientActiveCaption;
+            label1.Location = new Point(257, 25);
+            label1.Name = "label1";
+            label1.Size = new Size(151, 48);
+            label1.TabIndex = 47;
+            label1.Text = "TERMO";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(663, 678);
-            Controls.Add(groupBox2);
-            Controls.Add(groupBox1);
+            BackColor = SystemColors.ControlDarkDark;
+            ClientSize = new Size(663, 749);
+            Controls.Add(label1);
+            Controls.Add(gpbTeclado);
+            Controls.Add(gpbJogo);
+            ForeColor = Color.CornflowerBlue;
             Name = "Form1";
             Load += Form1_Load;
-            groupBox1.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
+            gpbJogo.ResumeLayout(false);
+            gpbTeclado.ResumeLayout(false);
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private Button button5;
-        private Button button6;
-        private Button button7;
-        private Button button8;
-        private Button button9;
-        private Button button10;
-        private Button button11;
-        private Button button12;
-        private Button button13;
-        private Button button14;
-        private Button button15;
-        private Button button16;
-        private Button button17;
-        private Button button18;
-        private Button button19;
-        private Button button20;
-        private Button button21;
-        private Button button22;
-        private Button button23;
-        private Button button24;
-        private Button button25;
-        private GroupBox groupBox1;
-        private GroupBox groupBox2;
-        private Button buttonQ;
-        private Button buttonG;
-        private Button buttonF;
-        private Button buttonD;
-        private Button buttonS;
-        private Button buttonA;
-        private Button buttonP;
-        private Button buttonO;
-        private Button buttonI;
-        private Button buttonU;
-        private Button buttonY;
-        private Button buttonT;
+        private Button btn11;
+        private Button btn12;
+        private Button btn13;
+        private Button btn14;
+        private Button btn15;
+        private Button btn21;
+        private Button btn22;
+        private Button btn23;
+        private Button btn24;
+        private Button btn25;
+        private Button btn31;
+        private Button btn32;
+        private Button btn33;
+        private Button btn34;
+        private Button btn35;
+        private Button btn41;
+        private Button btn42;
+        private Button btn43;
+        private Button btn44;
+        private Button btn45;
+        private Button btn51;
+        private Button btn52;
+        private Button btn53;
+        private Button btn54;
+        private Button btn55;
+        private GroupBox gpbJogo;
+        private GroupBox gpbTeclado;
+        private Button btnQ;
+        private Button btnG;
+        private Button btnF;
+        private Button btnD;
+        private Button btnS;
+        private Button btnA;
+        private Button btnP;
+        private Button btnO;
+        private Button btnI;
+        private Button btnU;
+        private Button btnY;
+        private Button btnT;
         private Button buttonR;
-        private Button buttonE;
-        private Button buttonW;
+        private Button btnE;
+        private Button btnW;
         private Button buttonEnter;
         private Button buttonDel;
-        private Button buttonM;
-        private Button buttonN;
-        private Button buttonB;
-        private Button buttonV;
-        private Button buttonC;
-        private Button buttonX;
-        private Button buttonZ;
-        private Button buttonL;
-        private Button buttonK;
-        private Button buttonJ;
-        private Button buttonH;
-        private Button button30;
-        private Button button29;
-        private Button button28;
-        private Button button27;
-        private Button button26;
+        private Button btnM;
+        private Button btnN;
+        private Button btnB;
+        private Button btnV;
+        private Button btnC;
+        private Button btnX;
+        private Button btnZ;
+        private Button btnL;
+        private Button btnK;
+        private Button btnJ;
+        private Button btnH;
+        private Button btn65;
+        private Button btn64;
+        private Button btn63;
+        private Button btn62;
+        private Button btn61;
+        private Label label1;
     }
 }

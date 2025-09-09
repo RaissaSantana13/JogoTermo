@@ -12,15 +12,6 @@ namespace TermoApp
 
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button22_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void groupBox1_Enter_1(object sender, EventArgs e)
         {
@@ -37,9 +28,6 @@ namespace TermoApp
 
         }
 
-        private void button52_Click(object sender, EventArgs e)
-        {
 
-        }
     }
 }
