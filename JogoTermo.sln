@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36401.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermoLib", "TermoLib\TermoLib.csproj", "{1FE531D1-5FB7-4B14-8E1E-A8512FB27795}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermoTest", "TermoTest\TermoTest.csproj", "{528B6D4A-D86A-4EB3-8902-91715716F8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TermoApp", "TermoApp\TermoApp.csproj", "{D8C0ABCD-A227-4FEF-9508-D759E3C324BF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1FE531D1-5FB7-4B14-8E1E-A8512FB27795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FE531D1-5FB7-4B14-8E1E-A8512FB27795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FE531D1-5FB7-4B14-8E1E-A8512FB27795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FE531D1-5FB7-4B14-8E1E-A8512FB27795}.Release|Any CPU.Build.0 = Release|Any CPU
+		{528B6D4A-D86A-4EB3-8902-91715716F8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528B6D4A-D86A-4EB3-8902-91715716F8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528B6D4A-D86A-4EB3-8902-91715716F8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528B6D4A-D86A-4EB3-8902-91715716F8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8C0ABCD-A227-4FEF-9508-D759E3C324BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8C0ABCD-A227-4FEF-9508-D759E3C324BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8C0ABCD-A227-4FEF-9508-D759E3C324BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8C0ABCD-A227-4FEF-9508-D759E3C324BF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5926FCD-C114-43DE-9D70-2E05498579A0}
+	EndGlobalSection
+EndGlobal
