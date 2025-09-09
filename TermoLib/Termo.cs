@@ -19,9 +19,11 @@ namespace TermoLib
         public List<List<Letra>> tabuleiro;
         public Dictionary<char, char> teclado;
         public int palavraAtual;
+        public bool jogoFinalizado;
 
         public Termo()
         {
+            jogoFinalizado = false;
             CarregaPalavras("palavra.txt");
             SorteiaPalavra();
             palavraAtual =1;
@@ -49,13 +51,17 @@ namespace TermoLib
         
         public void ChecaPalavra(string palavra)
         {
+            if (palavra == palavraSorteada)
+            {
+                jogoFinalizado=true;
+            }
+
             if(palavra.Length != 5)
             {
                 throw new Exception("Palavra com tamanho incorreto!");
             }
 
             // adicionando a palavra na matriz do tabuleiro
-            int coluna = 0;
             var palavraTabuleiro = new List<Letra>();
             char cor; 
             for (int i =0; i<palavra.Length; i++)
@@ -76,7 +82,7 @@ namespace TermoLib
                     cor = 'P';
                 }
 
-                palavraTabuleiro.Add(new Letra(palavra[i], 'V'));
+                palavraTabuleiro.Add(new Letra(palavra[i], cor));
                 teclado[palavra[i]] = cor;
             }
             tabuleiro.Add(palavraTabuleiro);
